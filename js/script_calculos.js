@@ -15,3 +15,5 @@ const calDesconto = (objPessoa ) => {
     
     return resultCalc
 }
+
+export{calDesconto}
