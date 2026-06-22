@@ -16,7 +16,7 @@ body {
     min-height: 600px;
     padding: 15px;
     margin: 30px auto;
-    background-color: #ffffff;
+    background-color: #acd6db;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -55,7 +55,7 @@ input {
     width: 100%; /* Preenche 100% do espaço disponível sem estourar o limite */
     height: 35px;
     padding: 5px 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000000;
     border-radius: 4px;
     font-size: 0.9em;
 }
