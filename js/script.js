@@ -43,6 +43,6 @@ const listpessoas = () => {
 
 
     pessoas.forEach((elem, i) =>{
-        divLista.innerHTML += `${i} - ${elem.nome} - ${elem.idade}, ${elem.renda} <br>`
+        divLista.innerHTML += `${i + 1} - ${elem.nome} - ${elem.idade}, ${parseFloat(elem.renda).toFixed(2).replace('.', ',')} <br>`
     })
 }
