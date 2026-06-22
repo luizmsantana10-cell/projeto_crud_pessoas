@@ -1,0 +1,104 @@
+/* Reset básico para evitar quebras de layout com margens e paddings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+#geral {
+    width: 100%;
+    max-width: 500px; /* Garante que o tamanho máximo seja 500px, mas seja responsivo */
+    min-height: 600px;
+    padding: 15px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #333;
+    margin-top: 10px;
+}
+
+#div-form-pessoa {
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0px;
+    background-color: rgb(16, 149, 182); /* Mantido o aqua original */
+    border-radius: 6px;
+}
+
+#form-pessoa {
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #222;
+}
+
+input {
+    display: block;
+    width: 100%; /* Preenche 100% do espaço disponível sem estourar o limite */
+    height: 35px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+/* Container criado para alinhar os botões lado a lado perfeitamente */
+.container-botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    width: 48%; /* Cada botão ocupa quase metade do formulário */
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#btn-add {
+    background-color: #007bff;
+    color: white;
+}
+
+#btn-add:hover {
+    background-color: #0056b3;
+}
+
+#btn-limpar {
+    background-color: #6c757d;
+    color: white;
+}
+
+#btn-limpar:hover {
+    background-color: #545b62;
+}
+
+#div-lista-pessoas {
+    width: 100%;
+    min-height: 450px;
+    color: #1b1515;
+    margin-top: 20px;
+}
